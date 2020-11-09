@@ -1,0 +1,61 @@
+# Parameters for Adam:
+# ==============================================================================
+Adam.b1 = 0.9
+Adam.b2 = 0.999
+Adam.clip_grad_norm = None
+Adam.eps = 1e-05
+Adam.weight_decay_rate = 1e-05
+
+# Parameters for backend:
+# ==============================================================================
+backend.name = 'jax'
+
+# Parameters for BucketByLength:
+# ==============================================================================
+BucketByLength.length_axis = 0
+BucketByLength.length_keys = None
+BucketByLength.strict_pad_on_len = False
+
+# Parameters for FilterByLength:
+# ==============================================================================
+FilterByLength.length_axis = 0
+FilterByLength.length_keys = None
+
+# Parameters for LayerNorm:
+# ==============================================================================
+LayerNorm.epsilon = 1e-06
+
+# Parameters for LogSoftmax:
+# ==============================================================================
+LogSoftmax.axis = -1
+
+# Parameters for Relu:
+# ==============================================================================
+# None.
+
+# Parameters for Serial:
+# ==============================================================================
+# None.
+
+# Parameters for data.TFDS:
+# ==============================================================================
+# None.
+
+# Parameters for tf_inputs.TFDS:
+# ==============================================================================
+tf_inputs.TFDS.data_dir = None
+tf_inputs.TFDS.eval_holdout_size = 0
+
+# Parameters for data.Tokenize:
+# ==============================================================================
+# None.
+
+# Parameters for tf_inputs.Tokenize:
+# ==============================================================================
+tf_inputs.Tokenize.keys = None
+tf_inputs.Tokenize.n_reserved_ids = 0
+tf_inputs.Tokenize.vocab_type = 'subword'
+
+# Parameters for warmup_and_rsqrt_decay:
+# ==============================================================================
+# None.
